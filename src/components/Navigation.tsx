@@ -23,11 +23,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-black text-primary">
-              EVOLV<span className="text-evolv-copper">.</span>
-            </div>
+            <img
+              src="/images/logo.jpeg"
+              alt="Evolv Logo"
+              className="h-20 w-auto"
+            />
           </Link>
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
