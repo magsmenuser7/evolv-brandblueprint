@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://magsmenuser7.github.io/evolv-brandblueprint",
+  "homepage": "https://magsmenuser7.github.io/evolv-brandblueprint/evolv-brand-blueprint-main",
   "scripts": {
     "start": "react-scripts start",
     "dev": "vite",
