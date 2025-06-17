@@ -5,12 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // base: mode === "production" ? "/evolv-brandblueprint/" : "/",
-  base: mode === "production" && process.env.CUSTOM_DOMAIN
-  ? "/"
-  : mode === "production"
-  ? "/evolv-brandblueprint/"
-  : "/",
+  base: mode === "production" ? "/" : "/",
   server: {
     host: "::",
     port: 8080,
