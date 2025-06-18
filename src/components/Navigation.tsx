@@ -24,7 +24,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="/images/logo.jpeg"
+              src="/images/evolv-logo.png"
               alt="Evolv Logo"
               className="h-20 w-auto"
             />
