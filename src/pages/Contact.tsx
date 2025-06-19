@@ -199,7 +199,7 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 6304970488"
                       />
                     </div>
                   </div>
