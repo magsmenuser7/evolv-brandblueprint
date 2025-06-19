@@ -26,7 +26,7 @@ const Navigation = () => {
             <img
               src="/images/evolv-logo.png"
               alt="Evolv Logo"
-              className="h-20 w-auto"
+               className="h-[45px] w-auto"
             />
           </Link>
           {/* Desktop Navigation */}
