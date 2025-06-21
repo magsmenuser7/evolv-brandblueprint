@@ -39,7 +39,7 @@ const About = () => {
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
               A premium brand consulting and marketing execution firm that believes in building 
-              brand ecosystems, not just running campaigns.
+              brand ecosystems, not just running campaigns..
             </p>
           </div>
         </div>
