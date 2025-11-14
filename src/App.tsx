@@ -11,6 +11,7 @@ import CaseStudies from "./pages/CaseStudies";
 import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import WaghbakriAuditApp from './pages/WaghbakriAuditApp'
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
@@ -27,9 +28,11 @@ const App = () => (
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/clients" element={<Clients />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/evolv-global-waghbakri-brand-audit" element={<WaghbakriAuditApp />} />
           <Route path="*" element={<NotFound />} />
+
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
